@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "venstre højre højre højre"
+        "venstre højre højre højre"
+        "footer footer footer footer";
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 600px;
+    height: 400px;
+}
+
+.item {}
+
+.item-a {
+    background-color: antiquewhite;
+    grid-area: header;
+}
+
+.item-b {
+    background-color: #e8d5bc;
+    grid-area: venstre;
+}
+
+.item-c {
+    background-color: #cbac84;
+    grid-area: højre;
+}
+
+.item-d {
+    background-color: #f2ce9e;
+    grid-area: footer;
+}
+
+@media screen and (min-width:768px) {}

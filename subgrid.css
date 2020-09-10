@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    max-width: 600px;
+    height: 400px;
+}
+
+.item {}
+
+.item-a {
+    background-color: antiquewhite;
+
+}
+
+.item-b {
+    background-color: #e8d5bc;
+
+}
+
+.item-c {
+    background-color: #cbac84;
+
+}
+
+.item-d {
+    background-color: #f2ce9e;
+
+}
+
+article {}
